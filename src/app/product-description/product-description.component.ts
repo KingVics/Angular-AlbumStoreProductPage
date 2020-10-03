@@ -7,7 +7,7 @@ import { Album } from '../album'
   templateUrl: './product-description.component.html',
 })
 export class ProductDescriptionComponent implements OnInit {
-  albumInfo;
+  albumInfo: Album;
   constructor(private _productService: ProductService) {   }
  
 
