@@ -8,13 +8,17 @@ import { ProductPageComponent } from './product-page/product-page.component';
 import { ProductDescriptionComponent } from './product-description/product-description.component'
 import { ProductService } from './product.service'
 import { ProductTracklistingComponent } from "./product-tracklisting/product-tracklisting.component"
+import  { RouterModule, Routes } from '@angular/router'
+
+const appRoutes: Routes[];
 
 @NgModule({
   declarations: [
     AppComponent,
     ProductPageComponent,
     ProductDescriptionComponent,
-    ProductDescriptionComponent
+    ProductTracklistingComponent,
+    RouterModule.forRoot(appRoutes)
     
   ],
   imports: [
