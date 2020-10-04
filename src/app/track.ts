@@ -1,4 +1,6 @@
-export interface Product {
-    id: number;
-    artistName: string;
+export interface Track {
+    trackNumber: number;
+    trackName: string;
+    trackLength: string;
+    trackPrice: number;
 }
