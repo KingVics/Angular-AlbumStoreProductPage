@@ -4,7 +4,7 @@ import { ProductTrackListing } from './product-tracklisting.component';
 
 describe('ProductPageComponent', () => {
   let component: ProductTrackListing;
-  let fixture: ComponentFixture<ProductDescriptionComponent>;
+  let fixture: ComponentFixture<ProductTrackListing>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
